@@ -164,7 +164,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105549016}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.4832772, y: 1.4832772, z: 1.4832772}
   m_ConstrainProportionsScale: 0
@@ -176,8 +176,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 848, y: 0}
-  m_SizeDelta: {x: 2280.181, y: 395}
+  m_AnchoredPosition: {x: 528, y: 0}
+  m_SizeDelta: {x: 2338.101, y: 328.2395}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &105549018
 Animator:
@@ -234,8 +234,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.2667, y: -29.9024}
-  m_SizeDelta: {x: 326.8148, y: 253.2025}
+  m_AnchoredPosition: {x: 4.2642, y: -27.872091}
+  m_SizeDelta: {x: 326.8098, y: 193.1163}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &315262931
 MonoBehaviour:
@@ -449,8 +449,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 177, y: 0}
-  m_SizeDelta: {x: 424.3591, y: 396}
+  m_AnchoredPosition: {x: 179.51518, y: 7.5902}
+  m_SizeDelta: {x: 573.5177, y: 477}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &342663750
 MonoBehaviour:
@@ -526,8 +526,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 868, y: 0}
-  m_SizeDelta: {x: 389.2967, y: 396}
+  m_AnchoredPosition: {x: 702, y: 7.5906}
+  m_SizeDelta: {x: 545.793, y: 477}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &404035333
 MonoBehaviour:
@@ -787,8 +787,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.7785034, y: -27.0304}
-  m_SizeDelta: {x: 313.5323, y: 231.7657}
+  m_AnchoredPosition: {x: 7.7785034, y: -12.6803}
+  m_SizeDelta: {x: 313.5323, y: 175.0686}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &516588041
 MonoBehaviour:
@@ -879,7 +879,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1200, y: 500}
+  m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1014,10 +1014,10 @@ RectTransform:
   - {fileID: 3437945804874995778}
   m_Father: {fileID: 105549017}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -546, y: 0}
-  m_SizeDelta: {x: 411.5531, y: 397}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -391, y: 7.589203}
+  m_SizeDelta: {x: -1692.531, y: 148.7669}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1636470971
 MonoBehaviour:
@@ -1091,8 +1091,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 5.270569, y: -30.043488}
-  m_SizeDelta: {x: -77.412415, y: -136.133}
+  m_AnchoredPosition: {x: 72.94741, y: -25.799194}
+  m_SizeDelta: {x: -318.0366, y: -270.2573}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1839702310
 MonoBehaviour:
@@ -1194,12 +1194,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4995541456128099843}
         m_TargetAssemblyTypeName: PanelNavigator, Assembly-CSharp
-        m_MethodName: NextPanel
-        m_Mode: 1
+        m_MethodName: GoToPanel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1264,15 +1264,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 531639922474471464, guid: 0f27e2382d29c8e41850dab4c019c99c,
-          type: 3}
+      - m_Target: {fileID: 4995541456128099843}
         m_TargetAssemblyTypeName: PanelNavigator, Assembly-CSharp
-        m_MethodName: NextPanel
-        m_Mode: 1
+        m_MethodName: GoToPanel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1425,15 +1424,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 531639922474471464, guid: 0f27e2382d29c8e41850dab4c019c99c,
-          type: 3}
+      - m_Target: {fileID: 4995541456128099843}
         m_TargetAssemblyTypeName: PanelNavigator, Assembly-CSharp
-        m_MethodName: PreviousPanel
-        m_Mode: 1
+        m_MethodName: GoToPanel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1482,15 +1480,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 531639922474471464, guid: 0f27e2382d29c8e41850dab4c019c99c,
-          type: 3}
+      - m_Target: {fileID: 4995541456128099843}
         m_TargetAssemblyTypeName: PanelNavigator, Assembly-CSharp
-        m_MethodName: PreviousPanel
-        m_Mode: 1
+        m_MethodName: GoToPanel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1520,7 +1517,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 60, y: -30}
+  m_AnchoredPosition: {x: 126, y: -109}
   m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &2796955757241539093
@@ -1540,7 +1537,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 60, y: -30}
+  m_AnchoredPosition: {x: 88, y: -99}
   m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &2799638865884750197
@@ -1587,7 +1584,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -60, y: -30}
+  m_AnchoredPosition: {x: -120, y: -99}
   m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3649463453561519462
@@ -1615,7 +1612,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -60, y: -30}
+  m_AnchoredPosition: {x: -127, y: -103}
   m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3835536275710926532
@@ -1696,10 +1693,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pageAnimator: {fileID: 105549018}
-  nextPageButton1: {fileID: 946304198609862148}
-  nextPageButton2: {fileID: 1599114865363561399}
-  previousPageButton2: {fileID: 2503842983536201499}
-  previousPageButton3: {fileID: 2503842982994500500}
 --- !u!4 &4995541456128099844
 Transform:
   m_ObjectHideFlags: 0

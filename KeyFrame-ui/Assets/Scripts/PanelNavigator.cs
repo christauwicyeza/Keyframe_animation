@@ -1,49 +1,26 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PanelNavigator : MonoBehaviour
 {
-    public Animator pageAnimator;
-    public Button nextPageButton1;
-    public Button nextPageButton2;
-    public Button previousPageButton2;
-    public Button previousPageButton3;
+    public Animator pageAnimator; 
 
-    private void Start()
+    /// <summary>
+    /// go to the panel by index
+    /// </summary>
+    /// <param name="panelIndex">1, 2, or 3 depending on which show.</param>
+    public void GoToPanel(int panelIndex)
     {
-        nextPageButton1.onClick.AddListener(GoToPanelTwo);
-        nextPageButton2.onClick.AddListener(GoToPanelThree);
-        previousPageButton2.onClick.AddListener(GoBackToPanelOne);
-        previousPageButton3.onClick.AddListener(GoBackToPanelTwo);
+        ChangePanel(panelIndex);
     }
 
-    private void GoToPanelTwo()
+    /// <summary>
+    /// changes to the specified panel
+    /// </summary>
+    /// <param name="panelIndex">Panel number to activate.</param>
+    private void ChangePanel(int panelIndex)
     {
-        pageAnimator.SetBool("panel1", false);
-        pageAnimator.SetBool("panel2", true);
-        pageAnimator.SetBool("panel3", false);
+        pageAnimator.SetBool("panel1", panelIndex == 1);
+        pageAnimator.SetBool("panel2", panelIndex == 2);
+        pageAnimator.SetBool("panel3", panelIndex == 3);
     }
-
-    private void GoToPanelThree()
-    {
-        pageAnimator.SetBool("panel1", false);
-        pageAnimator.SetBool("panel2", false);
-        pageAnimator.SetBool("panel3", true);
-    }
-
-    private void GoBackToPanelTwo()
-    {
-        pageAnimator.SetBool("panel1", false);
-        pageAnimator.SetBool("panel2", true);
-        pageAnimator.SetBool("panel3", false);
-    }
-
-    private void GoBackToPanelOne()
-    {
-        pageAnimator.SetBool("panel1", true);
-        pageAnimator.SetBool("panel2", false);
-        pageAnimator.SetBool("panel3", false);
-    }
-
-    
 }
